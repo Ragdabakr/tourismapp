@@ -1,0 +1,114 @@
+import { Router } from '@angular/router';
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import * as moment from 'moment';
+import { map } from 'rxjs/operators';
+
+
+interface SignupCredentials {
+    name: string;
+    email: string;
+    password: string;
+    passwordConfirmation: string;
+}
+interface SigninCredentials {
+    password: string;
+    email: string;
+}
+interface forgotpasswordCredentials {
+    email: string;
+}
+interface resetpasswordCredentials {
+    password: string;
+    passwordConfirmation: string;
+}
+
+// data will found when we decode token
+class DecodedToken {
+    exp = 0;
+    username = '';
+}
+
+
+@Injectable()
+export class AuthService {
+    private decodedToken;
+    token: string;
+
+    constructor(private http: HttpClient) {
+        this.decodedToken =
+            JSON.parse(localStorage.getItem('app_meta')) || new DecodedToken();
+    }
+
+    private decodeToken(token) {
+        const base64Url = token.split('.')[1];
+        const base64 = base64Url.replace('-', '+').replace('_', '/');
+        return JSON.parse(window.atob(base64));
+    }
+
+    // save decoded token to localstorge to can use user in our app
+    public saveToken(token: string): string {
+        this.decodedToken = this.decodeToken(token);
+        localStorage.setItem('app_auth', token);
+        localStorage.setItem('app_meta', JSON.stringify(this.decodedToken));
+
+        return token;
+    }
+    // if time now < token time is auth
+    private getExpiration() {
+        return moment.unix(this.decodedToken.exp);
+    }
+
+
+   SignUp(credentials: SignupCredentials): Observable<any> {
+        debugger;
+        return this.http.post('api/v1/users/signup', credentials);
+    }
+
+   SignIn(credentials: SigninCredentials) {
+        debugger;
+        return this.http.post('api/v1/users/login', credentials)
+       .pipe(map((token: string) => this.saveToken(token)));
+    }
+    forgotPassword(credentials: forgotpasswordCredentials): Observable<any> {
+        debugger;
+        return this.http.post('api/v1/users/forgotPassword', credentials);
+    }
+    ResetPassword(credentials: resetpasswordCredentials , token :any , email:string): Observable<any> {
+        debugger;
+        return this.http.patch('api/v1/users/resetPassword', { credentials, token, email });
+    }
+    public logout() {
+        localStorage.removeItem('app_auth'); // Remove localStorge
+        localStorage.removeItem('app_meta');
+
+        this.decodedToken = new DecodedToken(); // Reset to decodedtoken
+    }
+    // check if user is auth
+    public isAuthenticated(): boolean {
+        return moment().isBefore(this.getExpiration());
+    }
+
+    // Get user username
+    public getUserName(): string {
+        return this.decodedToken.username;
+    }
+
+    // Get user userId
+    public getUserId(): string {
+        return this.decodedToken.userId;
+    }
+
+    // Get auth token to header http
+    public getAuthToken(): string {
+        return localStorage.getItem('app_auth');
+    }
+
+    // Get user username
+    public getUserById(id: any): Observable<any> {
+        return this.http.get(`api/v1/auth/user/${id}`, id);
+    }
+
+}
+

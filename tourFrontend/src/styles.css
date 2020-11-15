@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+.ft-trash-2 {
+    color: red;
+}
+
+[class*=" ft-"], [class^=ft-] {
+    font-weight: 500;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+:host /deep/ .mandatory-cell {
+    border-color: red;
+}

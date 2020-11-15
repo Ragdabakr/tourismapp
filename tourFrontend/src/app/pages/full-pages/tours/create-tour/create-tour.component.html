@@ -1,0 +1,344 @@
+<div class="row">
+    <div class="col-sm-12">
+        <div class="content-header">Angular Wizard</div>
+    </div>
+</div>
+<section id="ngx">
+    <div class="card">
+        <div class="card-content">
+            <div class="card-body">
+                <p class="mb-0">
+                    <!-- <ngb-alert *ngIf="error" (close)="closeAlert()">
+                        <strong>Warning!</strong> {{alert}}
+                    </ngb-alert>
+                    <ngb-alert *ngIf="success" (close)="closeAlert(success)" type="success" [dismissible]="false">
+                        <strong>Success!</strong> {{successAlert}}
+                    </ngb-alert> -->
+                </p>
+                <aw-wizard #wizard navBarLayout="large-empty-symbols">
+                    <aw-wizard-step [stepTitle]="'Tour information'" [navigationSymbol]="{ symbol: '&#xf007;', fontFamily: 'FontAwesome' }">
+                        <form [formGroup]="dataForm" class="editForm" novalidate>
+                            {{dataForm.value |json}}
+                            <h4 class="head text-center">Please tell us about yourself.</h4>
+
+                            <br />
+                            <div class='row'>
+                                <div class='col-12'>
+                                    <div class="row">
+                                        <div class="col-sm-12 borderSection">
+                                            <div class="row">
+
+                                                <div class="form-group col-sm-6">
+                                                    <app-input inputType="text"
+                                                               label="name"
+                                                               [control]="dataForm.get('name')"></app-input>
+                                                </div>
+
+
+                                                <div class="form-group col-sm-6">
+                                                    <app-input inputType="number"
+                                                               label="duration"
+                                                               [control]="dataForm.get('duration')"></app-input>
+                                                </div>
+
+
+                                                <div class="form-group col-sm-6">
+                                                    <app-input inputType="number"
+                                                               label="maxGroupSize"
+                                                               [control]="dataForm.get('maxGroupSize')"></app-input>
+                                                </div>
+
+                                                <div class="form-group col-sm-6">
+                                                    <app-input inputType="number"
+                                                               label="price"
+                                                               [control]="dataForm.get('price')"></app-input>
+                                                </div>
+                                                <div class="form-group col-sm-6">
+                                                    <app-input inputType="number"
+                                                               label="priceDiscount"
+                                                               [control]="dataForm.get('priceDiscount')"></app-input>
+                                                </div>
+
+                                                <div class="form-group col-sm-6">
+                                                    <label class="label-control" for="userinput6">Guides</label>
+                                                    <ng-select [items]="data" bindLabel="name" bindValue="name" [multiple]="true" placeholder="Select Guides" formControlName="guides">
+                                                    </ng-select>
+                                                    <span class="ui pointing red basic label" *ngIf="hasGuidesError">Guides  Required...</span>
+                                                </div>
+                                                <div class="form-group col-sm-6">
+                                                    <label class=" label-control" for="userinput6">Difficulty</label>
+                                                    <ng-select [items]="difficulty" bindLabel="name" bindValue="name" placeholder="Select Guides" formControlName="difficulty">
+                                                    </ng-select>
+                                                    <span class="ui pointing red basic label" *ngIf="hasDifficultyError">Difficulty  Required...</span>
+                                                </div>
+                                                <div class="form-group col-sm-6">
+                                                    <label class=" label-control" for="userinput6">Type</label>
+                                                    <ng-select [items]="Tourtype" bindLabel="type" bindValue="type" placeholder="Select type" formControlName="type">
+                                                    </ng-select>
+                                                    <span class="ui pointing red basic label" *ngIf="hasDifficultyError">Type  Required...</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Array of start dates-->
+                                        <div class="form-group col-sm-12 borderSection">
+                                            <div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="submit-field" formArrayName="startDates">
+                                                            <input type="submit" (click)="addStartDatesButtonClick()" class="button btn gradient-pomegranate" value="Add New  Tour Start Date">
+
+                                                             <div class="keywords-container" *ngFor="let item of dataForm.get('startDates')['controls']; let i = index;">
+                                                                <div class="keyword-input-container" [formGroupName]='i'>
+                                                                    <div class="row">
+                                                                        <div class="form-group col-sm-6">
+                                                                            <label class=" label-control" for="userinput6"> Start Date</label>
+                                                                            <div class="input-group">
+
+                                                                                <input class="form-control" type="date" placeholder="yyyy-mm-dd" name="dp" formControlName="date" >
+                                                                            
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div> 
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-sm-12 borderSection">
+                                            <label for="street">Start location</label>
+                                            <div formGroupName="startLocation">
+                                                <div class="row">
+                                                    <div class="form-group col-sm-6">
+                                                        <label for="street">Day</label>
+                                                        <input type="number" formControlName="day" class="form-control">
+                                                    </div>
+                                                    <div class="form-group col-sm-6">
+                                                        <label for="houseNumber">Address</label>
+                                                        <input type="text" formControlName="address" class="form-control">
+                                                    </div>
+                                                    <div class="form-group col-sm-6">
+                                                        <label for="postalCode">longitude</label>
+                                                        <span>
+                                                            <button type="button" class="btn btn-outline-danger mr-1 mb-1" placement="top" ngbPopover="you can find this coordinates in google map location"
+                                                                    popoverTitle="coordinats like ( 21.596798)">
+                                                                ?
+                                                            </button>
+                                                        </span>
+                                                        <input type="text" formControlName="longitude" class="keyword-input with-border form-control " placeholder="e.g. 21.596798, 39.162380" />
+                                                    </div>
+                                                    <div class="form-group col-sm-6">
+                                                        <label for="postalCode">latitude</label>
+                                                        <span>
+                                                            <button type="button" class="btn btn-outline-danger mr-1 mb-1" placement="top" ngbPopover="you can find this coordinates in google map location"
+                                                                    popoverTitle="coordinats like (39.162380 )">
+                                                                ?
+                                                            </button>
+                                                        </span>
+                                                        <input type="text" formControlName="latitude" class="keyword-input with-border form-control " placeholder="e.g. 21.596798, 39.162380" />
+                                                    </div>
+                                                    <div class="form-group col-sm-6">
+                                                        <label for="postalCode">Description</label>
+                                                        <input type="text" formControlName="description" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="borderSection">
+                                            <div class="form-group">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-3 label-control" for="userinput6">Description</label>
+                                                    <textarea class="form-control" formControlName="description" rows="8" cols="160"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-3 label-control" for="userinput6">Summary</label>
+                                                    <textarea class="form-control"  formControlName="summary"  rows="4" cols="160"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group text-center">
+                                        <button type="button" uiSref="work" class="btn btn-info btn-raised" (click)="onFirstSubmit()" awNextStep>
+                                            Next
+                                            <span style="margin-left:10px;">
+                                                <i class="ft-chevron-right"></i>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </aw-wizard-step>
+                    <aw-wizard-step [stepTitle]="'Tour Locations'" [navigationSymbol]="{ symbol: '&#xf0b1;', fontFamily: 'FontAwesome' }">
+                        <form [formGroup]="locationForm">
+                            {{locationForm.value |json}}
+                            <div class="input-with-icon-left">
+                                <input type="submit" (click)="addLocationButtonClick()" class="button btn gradient-pomegranate" value="Add New Tour Location">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="submit-field" formArrayName="locations">
+                                            <div class="keywords-container" *ngFor="let item of locationForm.get('locations')['controls']; let i = index;">
+                                                <div class="keyword-input-container" [formGroupName]='i'>
+                                                    <div class="row borderSection">
+                                                        <div class="form-group col-sm-6">
+                                                            <label for="postalCode">longitude</label>
+                                                            <span>
+                                                                <button type="button" class="btn btn-outline-danger mr-1 mb-1" placement="top" ngbPopover="you can find this coordinates in google map location"
+                                                                        popoverTitle="coordinats like ( 21.596798)">
+                                                                    ?
+                                                                </button>
+                                                            </span>
+                                                            <input type="text" formControlName="longitude" class="keyword-input with-border form-control " placeholder="e.g. 21.596798, 39.162380" />
+                                                        </div>
+
+                                                        <div class="form-group col-sm-6">
+                                                            <label for="postalCode">latitude</label>
+                                                            <span>
+                                                                <button type="button" class="btn btn-outline-danger mr-1 mb-1" placement="top" ngbPopover="you can find this coordinates in google map location"
+                                                                        popoverTitle="coordinats like (39.162380 )">
+                                                                    ?
+                                                                </button>
+                                                            </span>
+                                                            <input type="text" formControlName="latitude" class="keyword-input with-border form-control " placeholder="e.g. 21.596798, 39.162380" />
+                                                        </div>
+                                                        <div class="form-group col-sm-6">
+                                                            <label class="label-control" for="userinput6">Guides</label>
+                                                            <ng-select [items]="data" bindLabel="name" bindValue="name" [multiple]="false" placeholder="Select Guides" formControlName="guides">
+                                                            </ng-select>
+
+                                                        </div>
+                                                        <div class="form-group col-sm-6">
+                                                            Day
+                                                            <input type="number" formControlName="day" class="keyword-input with-border form-control " placeholder="e.g. 2" />
+                                                        </div>
+                                                        <div class="form-group col-sm-6">
+                                                            <label class=" label-control" for="userinput6">Address</label>
+                                                            <input type="text" formControlName="address" class="keyword-input with-border form-control " placeholder="e.g. saudiArabia/jeddah" />
+                                                        </div>
+                                                        <div class="form-group col-sm-6">
+                                                            <label class=" label-control" for="userinput6">Buses</label>
+                                                            <ng-select [items]="buses" bindLabel="busData" bindValue="busNumber" [multiple]="false" placeholder="Select buses" formControlName="buses">
+                                                            </ng-select>
+
+
+                                                        </div>
+                                                        <div class="form-group col-sm-6">
+                                                            <label class=" label-control" for="userinput6">Hotels</label>
+                                                            <ng-select [items]="hotels" bindLabel="name" bindValue="name" [multiple]="false" placeholder="Select hotels" formControlName="hotels">
+                                                            </ng-select>
+
+                                                        </div>
+                                                        <div class="form-group col-sm-12">
+                                                            <label class=" label-control" for="userinput6">Description</label>
+                                                            <textarea type="text" formControlName="description" class="keyword-input with-border form-control" placeholder="e.g. description of the tour"></textarea>
+                                                        </div>
+                                                        <hr />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group text-center space-20">
+                                <button uiSref="personal" type="button" class="btn btn-raised btn-secondary mr-1" awPreviousStep>
+                                    <span style="margin-right:10px;">
+                                        <i class="ft-chevron-left"></i>
+                                    </span> Previous
+                                </button>
+                                <button uiSref="address" type="button" class="btn btn-raised btn-info" (click)="onSecondSubmit()" awNextStep>
+                                    Next
+                                    <span style="margin-left:10px;">
+                                        <i class="ft-chevron-right"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                    </aw-wizard-step>
+                    
+                    <!-- <aw-wizard-step [stepTitle]="'Tour Photos'" [navigationSymbol]="{ symbol: '&#xf0ac;', fontFamily: 'FontAwesome' }">
+                        <form [formGroup]="imageForm" class="editForm" novalidate>
+                            {{imageForm.value | json}}
+                            <h4 class="head text-center">Where do you live?</h4>
+                            <br />
+                            <div class='row'>
+                                <div class='col-sm-12'>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div *ngIf="fileUploadProgress">
+                                                <div class="progress0">
+                                                    <div class="progress-bar progress-bar-animated" [ngStyle]="{ 'width': fileUploadProgress , 'height': '10px' }"></div>
+                                                </div>
+                                            </div>
+                                            <label class=" label-control" for="userinput6">Image cover</label>
+                                            <img class="photo" [src]="selectedFile ? selectedFile : 'https://res.cloudinary.com/reg1rego3/image/upload/v1585916456/user_rygoeq.png'" file accept='image/*' />
+                                            <label class="custom-file">
+                                                <input type="file" formControlName="imageCover" ng2FileSelect [uploader]="uploader" (onFileSelected)="OnFileSelect($event)" accept="image/*   ">
+                                                <span class="custom-file-control"></span>
+                                            </label>
+                                            <button type="button" class="btn btn-raised btn-success btn-sm" (click)="imageUpload()">
+                                                <span class="fa fa-upload"></span> Upload
+                                            </button>
+
+                                        </div>
+                                    </div>
+
+                                    <hr />
+                                    <div class="col-md-9">
+
+                                        <h4>Upload tour images</h4>
+                                        <label class="custom-file mb-3">
+                                            <input type="file" (change)="onFileChange($event)" multiple /><br />
+                                            <br>
+                                            <span class="custom-file-control"></span>
+                                        </label>
+
+                                        <ul *ngFor="let image of myFiles">
+                                            <li class="imageContainer">
+                                                <img alt="" class="photo" [src]="image" file accept='image/* ' height="150" width="200" style="margin: 3px;" />
+                                                <button type="button" class="btn btn-raised btn-success btn-sm" (click)="removeImage(image)">
+                                                    <i class="ft-x"></i>
+                                                </button>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="form-group text-center">
+                                        <button uiSref="work" type="button" class="btn btn-raised btn-secondary mr-1" awPreviousStep>
+                                            <span style="margin-right:10px;">
+                                                <i class="ft-chevron-left"></i>
+                                            </span> Previous
+                                        </button>
+                                        <button uiSref="result" type="button" class="btn btn-raised btn-success" (click)="onThirdSubmit()">
+                                            Finish
+                                            <span style="margin-left:10px;">
+                                                <i class="ft-chevron-right"></i>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </aw-wizard-step> -->
+                 
+                </aw-wizard>
+
+
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,863 @@
+[
+
+  {
+    "alpha_2_code": "AL",
+    "enCountryName": "Albania",
+    "arCountryName": "√·»«‰Ì«",
+    "enNationality": "Albanian",
+    "arNationality": "√·»«‰Ì",
+    "phoneCode": "+355",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg"
+  },
+  {
+    "alpha_2_code": "AX",
+    "enCountryName": "Aland Islands",
+    "arCountryName": "Ã“— ¬·«‰œ",
+    "enNationality": "Aland Islander",
+    "arNationality": "¬·«‰œÌ",
+    "phoneCode": "",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/5/52/Flag_of_%C3%85land.svg"
+  },
+  {
+    "alpha_2_code": "DZ",
+    "enCountryName": "Algeria",
+    "arCountryName": "«·Ã“«∆—",
+    "enNationality": "Algerian",
+    "arNationality": "Ã“«∆—Ì",
+    "phoneCode": "213",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg"
+  },
+  {
+    "alpha_2_code": "AS",
+    "enCountryName": "American Samoa",
+    "arCountryName": "”«„Ê«-«·√„—ÌﬂÌ",
+    "enNationality": "American Samoan",
+    "arNationality": "√„—ÌﬂÌ ”«„Ê«‰Ì",
+    "phoneCode": "+1",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Andorra.svg"
+  },
+  {
+    "alpha_2_code": "AD",
+    "enCountryName": "Andorra",
+    "arCountryName": "√‰œÊ—«",
+    "enNationality": "Andorran",
+    "arNationality": "√‰œÊ—Ì",
+    "phoneCode": "376",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Andorra.svg"
+  },
+  {
+    "alpha_2_code": "AO",
+    "enCountryName": "Angola",
+    "arCountryName": "√‰€Ê·«",
+    "enNationality": "Angolan",
+    "arNationality": "√‰ﬁÊ·Ì",
+    "phoneCode": "244",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Angola.svg"
+  },
+  {
+    "alpha_2_code": "AI",
+    "enCountryName": "Anguilla",
+    "arCountryName": "√‰€ÊÌ·«",
+    "enNationality": "Anguillan",
+    "arNationality": "Anguillan",
+    "phoneCode": "1264",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Anguilla.svg"
+  },
+  {
+    "alpha_2_code": "AQ",
+    "enCountryName": "Antarctica",
+    "arCountryName": "√‰ «—ﬂ Ìﬂ«",
+    "enNationality": "Antarctican",
+    "arNationality": "√‰ «—ﬂ ÌﬂÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "AG",
+    "enCountryName": "Antigua and Barbuda",
+    "arCountryName": "√‰ Ì€Ê« Ê»—»Êœ«",
+    "enNationality": "Antiguan",
+    "arNationality": "»—»ÊœÌ",
+    "phoneCode": "1268",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Antigua_and_Barbuda.svg"
+  },
+  {
+    "alpha_2_code": "AR",
+    "enCountryName": "Argentina",
+    "arCountryName": "«·√—Ã‰ Ì‰",
+    "enNationality": "Argentinian",
+    "arNationality": "√—Ã‰ Ì‰Ì",
+    "phoneCode": "54",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+  },
+  {
+    "alpha_2_code": "AM",
+    "enCountryName": "Armenia",
+    "arCountryName": "√—„Ì‰Ì«",
+    "enNationality": "Armenian",
+    "arNationality": "√—„Ì‰Ì",
+    "phoneCode": "374",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg"
+  },
+
+  {
+    "alpha_2_code": "AW",
+    "enCountryName": "Aruba",
+    "arCountryName": "√—Ê»Â",
+    "enNationality": "Aruban",
+    "arNationality": "√Ê—Ê»ÂÌ‰Ì",
+    "phoneCode": "297",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Aruba.svg"
+  },
+  {
+    "alpha_2_code": "AU",
+    "enCountryName": "Australia",
+    "arCountryName": "√” —«·Ì«",
+    "enNationality": "Australian",
+    "arNationality": "√” —«·Ì",
+    "phoneCode": "61",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg"
+  },
+  {
+    "alpha_2_code": "AT",
+    "enCountryName": "Austria",
+    "arCountryName": "«·‰„”«",
+    "enNationality": "Austrian",
+    "arNationality": "‰„”«ÊÌ",
+    "phoneCode": "43",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg"
+  },
+  {
+    "alpha_2_code": "AZ",
+    "enCountryName": "Azerbaijan",
+    "arCountryName": "√–—»ÌÃ«‰",
+    "enNationality": "Azerbaijani",
+    "arNationality": "Azerbaijani",
+    "phoneCode": "994",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg"
+  },
+  {
+    "alpha_2_code": "BS",
+    "enCountryName": "Bahamas",
+    "arCountryName": "«·»«Â«„«”",
+    "enNationality": "Bahamian",
+    "arNationality": "»«Â«„Ì”Ì",
+    "phoneCode": "1242",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/9/93/Flag_of_the_Bahamas.svg"
+  },
+  {
+    "alpha_2_code": "BH",
+    "enCountryName": "Bahrain",
+    "arCountryName": "«·»Õ—Ì‰",
+    "enNationality": "Bahraini",
+    "arNationality": "»Õ—Ì‰Ì",
+    "phoneCode": "973",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Bahrain.svg"
+  },
+  {
+    "alpha_2_code": "BD",
+    "enCountryName": "Bangladesh",
+    "arCountryName": "»‰€·«œÌ‘",
+    "enNationality": "Bangladeshi",
+    "arNationality": "»‰€·«œÌ‘Ì",
+    "phoneCode": "880",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg"
+  },
+  {
+    "alpha_2_code": "BB",
+    "enCountryName": "Barbados",
+    "arCountryName": "»—»«œÊ”",
+    "enNationality": "Barbadian",
+    "arNationality": "»—»«œÊ”Ì",
+    "phoneCode": "1246",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Barbados.svg"
+  },
+  {
+    "alpha_2_code": "BY",
+    "enCountryName": "Belarus",
+    "arCountryName": "—Ê”Ì« «·»Ì÷«¡",
+    "enNationality": "Belarusian",
+    "arNationality": "—Ê”Ì",
+    "phoneCode": "375",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Belarus.svg"
+  },
+  {
+    "alpha_2_code": "BE",
+    "enCountryName": "Belgium",
+    "arCountryName": "»·ÃÌﬂ«",
+    "enNationality": "Belgian",
+    "arNationality": "»·ÃÌﬂÌ",
+    "phoneCode": "32",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Belgium.svg"
+  },
+  {
+    "alpha_2_code": "BZ",
+    "enCountryName": "Belize",
+    "arCountryName": "»Ì·Ì“",
+    "enNationality": "Belizean",
+    "arNationality": "»Ì·Ì“Ì",
+    "phoneCode": "501",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Belize.svg"
+  },
+  {
+    "alpha_2_code": "BJ",
+    "enCountryName": "Benin",
+    "arCountryName": "»‰Ì‰",
+    "enNationality": "Beninese",
+    "arNationality": "Beninese",
+    "phoneCode": "229",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Benin.svg"
+  },
+  {
+    "alpha_2_code": "BL",
+    "enCountryName": "Saint Barthelemy",
+    "arCountryName": "”«‰ »«— Ì·„Ì",
+    "enNationality": "Saint Barthelmian",
+    "arNationality": "”«‰ »«— Ì·„Ì",
+    "phoneCode": "",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_k.svg"
+  },
+  {
+    "alpha_2_code": "BM",
+    "enCountryName": "Bermuda",
+    "arCountryName": "Ã“— »—„Êœ«",
+    "enNationality": "Bermudan",
+    "arNationality": "»—„ÊœÌ",
+    "phoneCode": "1441",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Bermuda.svg"
+  },
+  {
+    "alpha_2_code": "BT",
+    "enCountryName": "Bhutan",
+    "arCountryName": "»Ê «‰",
+    "enNationality": "Bhutanese",
+    "arNationality": "»Ê «‰Ì",
+    "phoneCode": "975",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Bhutan.svg"
+  },
+  {
+    "alpha_2_code": "BO",
+    "enCountryName": "Bolivia",
+    "arCountryName": "»Ê·Ì›Ì«",
+    "enNationality": "Bolivian",
+    "arNationality": "»Ê·Ì›Ì",
+    "phoneCode": "591",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Bolivia.svg"
+  },
+  {
+    "alpha_2_code": "BA",
+    "enCountryName": "Bosnia and Herzegovina",
+    "arCountryName": "«·»Ê”‰… Ê «·Â—”ﬂ",
+    "enNationality": "Bosnian / Herzegovinian",
+    "arNationality": "»Ê”‰Ì/Â—”ﬂÌ",
+    "phoneCode": "387",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "BW",
+    "enCountryName": "Botswana",
+    "arCountryName": "»Ê ”Ê«‰«",
+    "enNationality": "Botswanan",
+    "arNationality": "»Ê ”Ê«‰Ì",
+    "phoneCode": "267",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Botswana.svg"
+  },
+  {
+    "alpha_2_code": "BV",
+    "enCountryName": "Bouvet Island",
+    "arCountryName": "Ã“Ì—… »Ê›ÌÂ",
+    "enNationality": "Bouvetian",
+    "arNationality": "»Ê›ÌÂÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "BR",
+    "enCountryName": "Brazil",
+    "arCountryName": "«·»—«“Ì·",
+    "enNationality": "Brazilian",
+    "arNationality": "»—«“Ì·Ì",
+    "phoneCode": "55",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Brazilian.svg"
+  },
+  {
+    "alpha_2_code": "IO",
+    "enCountryName": "British Indian Ocean Territory",
+    "arCountryName": "≈ﬁ·Ì„ «·„ÕÌÿ «·Â‰œÌ «·»—Ìÿ«‰Ì",
+    "enNationality": "British Indian Ocean Territory",
+    "arNationality": "≈ﬁ·Ì„ «·„ÕÌÿ «·Â‰œÌ «·»—Ìÿ«‰Ì",
+    "phoneCode": "",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_k.svg"
+  },
+  {
+    "alpha_2_code": "BN",
+    "enCountryName": "Brunei Darussalam",
+    "arCountryName": "»—Ê‰Ì",
+    "enNationality": "Bruneian",
+    "arNationality": "»—Ê‰Ì",
+    "phoneCode": "673",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "BG",
+    "enCountryName": "Bulgaria",
+    "arCountryName": "»·€«—Ì«",
+    "enNationality": "Bulgarian",
+    "arNationality": "»·€«—Ì",
+    "phoneCode": "359",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Bulgaria.svg"
+  },
+  {
+    "alpha_2_code": "BF",
+    "enCountryName": "Burkina Faso",
+    "arCountryName": "»Ê—ﬂÌ‰« ›«”Ê",
+    "enNationality": "Burkinabe",
+    "arNationality": "»Ê—ﬂÌ‰Ì",
+    "phoneCode": "226",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "BF",
+    "enCountryName": "Burundi",
+    "arCountryName": "»Ê—Ê‰œÌ",
+    "enNationality": "Burundian",
+    "arNationality": "»Ê—Ê‰ÌœÌ",
+    "phoneCode": "257",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Burundi.svg"
+  },
+  {
+    "alpha_2_code": "KH",
+    "enCountryName": "Cambodia",
+    "arCountryName": "ﬂ„»ÊœÌ«",
+    "enNationality": "Cambodian",
+    "arNationality": "ﬂ„»ÊœÌ",
+    "phoneCode": "855",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Cambodia.svg"
+  },
+  {
+    "alpha_2_code": "CM",
+    "enCountryName": "Cameroon",
+    "arCountryName": "ﬂ«„Ì—Ê‰",
+    "enNationality": "Cameroonian",
+    "arNationality": "ﬂ«„Ì—Ê‰Ì",
+    "phoneCode": "237",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Cameroon.svg"
+  },
+  {
+    "alpha_2_code": "CA",
+    "enCountryName": "Canada",
+    "arCountryName": "ﬂ‰œ«",
+    "enNationality": "Canadian",
+    "arNationality": "ﬂ‰œÌ",
+    "phoneCode": "1",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Canada.svg"
+  },
+  {
+    "alpha_2_code": "CV",
+    "enCountryName": "Cape Verde",
+    "arCountryName": "«·—√” «·√Œ÷—",
+    "enNationality": "Cape Verdean",
+    "arNationality": "«·—√” «·√Œ÷—",
+    "phoneCode": "238",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "KY",
+    "enCountryName": "Cayman Islands",
+    "arCountryName": "Ã“— ﬂ«Ì„«‰",
+    "enNationality": "Caymanian",
+    "arNationality": "ﬂ«Ì„«‰Ì",
+    "phoneCode": "1345",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "CF",
+    "enCountryName": "Central African Republic",
+    "arCountryName": "Ã„ÂÊ—Ì… √›—ÌﬁÌ« «·Ê”ÿÏ",
+    "enNationality": "Central African",
+    "arNationality": "√›—ÌﬁÌ",
+    "phoneCode": "236",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "TD",
+    "enCountryName": "Chad",
+    "arCountryName": " ‘«œ",
+    "enNationality": "Chadian",
+    "arNationality": " ‘«œÌ",
+    "phoneCode": "235",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Chad.svg"
+  },
+  {
+    "alpha_2_code": "CL",
+    "enCountryName": "Chile",
+    "arCountryName": "‘Ì·Ì",
+    "enNationality": "Chilean",
+    "arNationality": "‘Ì·Ì",
+    "phoneCode": "56",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Chile.svg"
+  },
+  {
+    "alpha_2_code": "CN",
+    "enCountryName": "China",
+    "arCountryName": "«·’Ì‰",
+    "enNationality": "Chinese",
+    "arNationality": "’Ì‰Ì",
+    "phoneCode": "86",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_China.svg"
+  },
+  {
+    "alpha_2_code": "CX",
+    "enCountryName": "Christmas Island",
+    "arCountryName": "Ã“Ì—… ⁄Ìœ «·„Ì·«œ",
+    "enNationality": "Christmas Islander",
+    "arNationality": "Ã“Ì—… ⁄Ìœ «·„Ì·«œ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "CC",
+    "enCountryName": "Cocos (Keeling) Islands",
+    "arCountryName": "Ã“— ﬂÊﬂÊ”",
+    "enNationality": "Cocos Islander",
+    "arNationality": "Ã“— ﬂÊﬂÊ”",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "CO",
+    "enCountryName": "Colombia",
+    "arCountryName": "ﬂÊ·Ê„»Ì«",
+    "enNationality": "Colombian",
+    "arNationality": "ﬂÊ·Ê„»Ì",
+    "phoneCode": "57",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Colombia.svg"
+  },
+  {
+    "alpha_2_code": "KM",
+    "enCountryName": "Comoros",
+    "arCountryName": "Ã“— «·ﬁ„—",
+    "enNationality": "Comorian",
+    "arNationality": "Ã“— «·ﬁ„—",
+    "phoneCode": "269",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "CG",
+    "enCountryName": "Congo",
+    "arCountryName": "«·ﬂÊ‰€Ê",
+    "enNationality": "Congolese",
+    "arNationality": "ﬂÊ‰€Ì",
+    "phoneCode": "243",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Congo.svg"
+  },
+  {
+    "alpha_2_code": "CK",
+    "enCountryName": "Cook Islands",
+    "arCountryName": "Ã“— ﬂÊﬂ",
+    "enNationality": "Cook Islander",
+    "arNationality": "Ã“— ﬂÊﬂ",
+    "phoneCode": "682",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "CR",
+    "enCountryName": "Costa Rica",
+    "arCountryName": "ﬂÊ” «—Ìﬂ«",
+    "enNationality": "Costa Rican",
+    "arNationality": "ﬂÊ” «—ÌﬂÌ",
+    "phoneCode": "506",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "HR",
+    "enCountryName": "Croatia",
+    "arCountryName": "ﬂ—Ê« Ì«",
+    "enNationality": "Croatian",
+    "arNationality": "ﬂÊ—« Ì",
+    "phoneCode": "385",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Croatia.svg"
+  },
+  {
+    "alpha_2_code": "CU",
+    "enCountryName": "Cuba",
+    "arCountryName": "ﬂÊ»«",
+    "enNationality": "Cuban",
+    "arNationality": "ﬂÊ»Ì",
+    "phoneCode": "53",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Cuba.svg"
+  },
+  {
+    "alpha_2_code": "CY",
+    "enCountryName": "Cyprus",
+    "arCountryName": "ﬁ»—’",
+    "enNationality": "ﬁ»—’",
+    "arNationality": "ﬁ»—’Ì",
+    "phoneCode": "357",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Cyprus.svg"
+  },
+  {
+    "alpha_2_code": "CW",
+    "enCountryName": "CuraÁao",
+    "arCountryName": "ﬂÊ—«”«Ê",
+    "enNationality": "Curacian",
+    "arNationality": "ﬂÊ—«”«ÊÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "CZ",
+    "enCountryName": "Czech Republic",
+    "arCountryName": "«·Ã„ÂÊ—Ì… «· ‘ÌﬂÌ…",
+    "enNationality": "Czech",
+    "arNationality": " ‘ÌﬂÌ",
+    "phoneCode": "420",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "DZ",
+    "enCountryName": "Denmark",
+    "arCountryName": "«·œ«‰„«—ﬂ",
+    "enNationality": "Danish",
+    "arNationality": "œ‰„«—ﬂÌ",
+    "phoneCode": "45",
+    "flag": "//upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Denmark.svg"
+  },
+  {
+    "alpha_2_code": "DZ",
+    "enCountryName": "Denmark",
+    "arCountryName": "«·œ«‰„«—ﬂ",
+    "enNationality": "Danish",
+    "arNationality": "œ‰„«—ﬂÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "DJ",
+    "enCountryName": "Djibouti",
+    "arCountryName": "ÃÌ»Ê Ì",
+    "enNationality": "Djiboutian",
+    "arNationality": "ÃÌ»Ê Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "DM",
+    "enCountryName": "Dominica",
+    "arCountryName": "œÊ„Ì‰Ìﬂ«",
+    "enNationality": "Dominican",
+    "arNationality": "œÊ„Ì‰ÌﬂÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "DO",
+    "enCountryName": "Dominican Republic",
+    "arCountryName": "«·Ã„ÂÊ—Ì… «·œÊ„Ì‰ÌﬂÌ…",
+    "enNationality": "Dominican",
+    "arNationality": "œÊ„Ì‰ÌﬂÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "DO",
+    "enCountryName": "Dominican Republic",
+    "arCountryName": "«·Ã„ÂÊ—Ì… «·œÊ„Ì‰ÌﬂÌ…",
+    "enNationality": "Dominican",
+    "arNationality": "œÊ„Ì‰ÌﬂÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "EC",
+    "enCountryName": "Ecuador",
+    "arCountryName": "≈ﬂÊ«œÊ—",
+    "enNationality": "Ecuadorian",
+    "arNationality": "≈ﬂÊ«œÊ—Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "EG",
+    "enCountryName": "Egypt",
+    "arCountryName": "„’—",
+    "enNationality": "Egyptian",
+    "arNationality": "„’—Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "SV",
+    "enCountryName": "El Salvador",
+    "arCountryName": "≈·”·›«œÊ—",
+    "enNationality": "Salvadoran",
+    "arNationality": "”·›«œÊ—Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GQ",
+    "enCountryName": "Equatorial Guinea",
+    "arCountryName": "€Ì‰Ì« «·«” Ê«∆Ì",
+    "enNationality": "Equatorial Guinean",
+    "arNationality": "€Ì‰Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "ER",
+    "enCountryName": "Eritrea",
+    "arCountryName": "≈—Ì —Ì«",
+    "enNationality": "Eritrean",
+    "arNationality": "≈—Ì Ì—Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "EE",
+    "enCountryName": "Estonia",
+    "arCountryName": "«” Ê‰Ì«",
+    "enNationality": "Estonian",
+    "arNationality": "«” Ê‰Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "ET",
+    "enCountryName": "Ethiopia",
+    "arCountryName": "√ÀÌÊ»Ì«",
+    "enNationality": "Ethiopian",
+    "arNationality": "√ÀÌÊ»Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "FK",
+    "enCountryName": "Falkland Islands (Malvinas)",
+    "arCountryName": "Ã“— ›Êﬂ·«‰œ",
+    "enNationality": "Falkland Islander",
+    "arNationality": "›Êﬂ·«‰œÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "FO",
+    "enCountryName": "Faroe Islands",
+    "arCountryName": "Ã“— ›«—Ê",
+    "enNationality": "Faroese",
+    "arNationality": "Ã“— ›«—Ê",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "FJ",
+    "enCountryName": "Fiji",
+    "arCountryName": "›ÌÃÌ",
+    "enNationality": "Fijian",
+    "arNationality": "›ÌÃÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "FI",
+    "enCountryName": "Finland",
+    "arCountryName": "›‰·‰œ«",
+    "enNationality": "Finnish",
+    "arNationality": "›‰·‰œÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "FR",
+    "enCountryName": "France",
+    "arCountryName": "›—‰”«",
+    "enNationality": "French",
+    "arNationality": "›—‰”Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GF",
+    "enCountryName": "French Guiana",
+    "arCountryName": "€ÊÌ«‰« «·›—‰”Ì…",
+    "enNationality": "French Guianese",
+    "arNationality": "€ÊÌ«‰« «·›—‰”Ì…",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "PF",
+    "enCountryName": "French Polynesia",
+    "arCountryName": "»Ê·Ì‰Ì“Ì« «·›—‰”Ì…",
+    "enNationality": "French Polynesian",
+    "arNationality": "»Ê·Ì‰Ì“ÌÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "TF",
+    "enCountryName": "French Southern and Antarctic Lands",
+    "arCountryName": "√—«÷ ›—‰”Ì… Ã‰Ê»Ì… Ê√‰ «— ÌﬂÌ…",
+    "enNationality": "French",
+    "arNationality": "√—«÷ ›—‰”Ì… Ã‰Ê»Ì… Ê√‰ «— ÌﬂÌ…",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "TF",
+    "enCountryName": "French Southern and Antarctic Lands",
+    "arCountryName": "√—«÷ ›—‰”Ì… Ã‰Ê»Ì… Ê√‰ «— ÌﬂÌ…",
+    "enNationality": "French",
+    "arNationality": "√—«÷ ›—‰”Ì… Ã‰Ê»Ì… Ê√‰ «— ÌﬂÌ…",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GA",
+    "enCountryName": "Gabon",
+    "arCountryName": "«·€«»Ê‰",
+    "enNationality": "Gabonese",
+    "arNationality": "€«»Ê‰Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GE",
+    "enCountryName": "Georgia",
+    "arCountryName": "ÃÌÊ—ÃÌ«",
+    "enNationality": "Georgian",
+    "arNationality": "ÃÌÊ—ÃÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "DE",
+    "enCountryName": "Germany",
+    "arCountryName": "√·„«‰Ì«",
+    "enNationality": "German",
+    "arNationality": "√·„«‰Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "DH",
+    "enCountryName": "Ghana",
+    "arCountryName": "€«‰«",
+    "enNationality": "Ghanaian",
+    "arNationality": "€«‰Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GG",
+    "enCountryName": "Guernsey",
+    "arCountryName": "€Ì—‰“Ì",
+    "enNationality": "Guernsian",
+    "arNationality": "€Ì—‰“Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GR",
+    "enCountryName": "Greece",
+    "arCountryName": "«·ÌÊ‰«‰",
+    "enNationality": "Greek",
+    "arNationality": "ÌÊ‰«‰Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GL",
+    "enCountryName": "Greenland",
+    "arCountryName": "Ã—Ì‰·«‰œ",
+    "enNationality": "Greenlandic",
+    "arNationality": "Ã—Ì‰·«‰œÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GD",
+    "enCountryName": "€—Ì‰«œ«",
+    "arCountryName": "Ã—Ì‰·«‰œ",
+    "enNationality": "Grenadian",
+    "arNationality": "€—Ì‰«œÌ",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GD",
+    "enCountryName": "Guadeloupe",
+    "arCountryName": "Ã“— ÃÊ«œ·Ê»",
+    "enNationality": "Guadeloupe",
+    "arNationality": "Ã“— ÃÊ«œ·Ê»",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GU",
+    "enCountryName": "Guam",
+    "arCountryName": "ÃÊ«„",
+    "enNationality": "Guamanian",
+    "arNationality": "ÃÊ«„Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GT",
+    "enCountryName": "Guatemala",
+    "arCountryName": "€Ê« Ì„«·",
+    "enNationality": "Guatemalan",
+    "arNationality": "€Ê« Ì„«·Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GN",
+    "enCountryName": "Guinea",
+    "arCountryName": "€Ì‰Ì«",
+    "enNationality": "Guinean",
+    "arNationality": "Guinean",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GW",
+    "enCountryName": "Guinea-Bissau",
+    "arCountryName": "€Ì‰Ì«-»Ì”«Ê",
+    "enNationality": "Guinea-Bissauan",
+    "arNationality": "€Ì‰Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "GY",
+    "enCountryName": "Guyana",
+    "arCountryName": "€Ì«‰«",
+    "enNationality": "Guyanese",
+    "arNationality": "€Ì«‰Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "HT",
+    "enCountryName": "Haiti",
+    "arCountryName": "Â«Ì Ì",
+    "enNationality": "Haitian",
+    "arNationality": "Â«Ì Ì",
+    "phoneCode": "",
+    "flag": ""
+  },
+  {
+    "alpha_2_code": "HM",
+    "enCountryName": "Heard and Mc Donald Islands",
+    "arCountryName": "Ã“Ì—… ÂÌ—œ ÊÃ“— „«ﬂœÊ‰«·œ",
+    "enNationality": "Heard and Mc Donald Islanders",
+    "arNationality": "Ã“Ì—… ÂÌ—œ ÊÃ“— „«ﬂœÊ‰«·œ",
+    "phoneCode": "",
+    "flag": ""
+  }
+
+
+
+
+]
